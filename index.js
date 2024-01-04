@@ -3,6 +3,7 @@ import Header from "./header.js";
 import Footer from "./footer.js";
 function App() {
     return (
+        <>
         <div>
           <Header />
             <div
@@ -15,6 +16,7 @@ function App() {
             </div>
             <Footer />
         </div>
+        </>
     );
 }
  
