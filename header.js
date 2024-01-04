@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom/client";
 import React, { useState } from 'react';
 
 import {
@@ -11,6 +12,18 @@ import {
   MDBIcon,
   MDBCollapse
 } from 'mdb-react-ui-kit';
+
+
+
+function Hello(props) {
+  return <h1>Hello World!</h1>;
+}
+
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
+root.render(<Hello />);
+
+
 
 export default function App() {
   const [showBasic, setShowBasic] = useState(false);
