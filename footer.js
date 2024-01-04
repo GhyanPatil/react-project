@@ -1,5 +1,5 @@
 import React from 'react';
-import { Footer, Container, Row, Col, Icon } from 'mdb-react-ui-kit';
+import { Footer, Container, Row, Col, Icon } from 'react-ui-kit';
 
 export default function App() {
   return (
