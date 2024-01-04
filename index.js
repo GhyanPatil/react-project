@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
-import Footer from "./header.js";
+import Header from "./header.js";
 import Footer from "./footer.js";
 function App() {
     return (
         <div>
+          <Header />
             <div
                 style={{
                     minHeight: "400px",
