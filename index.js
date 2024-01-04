@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Footer from "./header.js";
-import Footer from "./Footer.js";
+import Footer from "./footer.js";
 function App() {
     return (
         <div>
